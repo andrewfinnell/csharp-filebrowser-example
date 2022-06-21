@@ -60,7 +60,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 28);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Select File...";
+            this.button1.Text = "Select XML...";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.OnFileBrowser);
             // 
@@ -85,7 +85,7 @@
             this.Controls.Add(this.fileToUseInput);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Select a File to Open with Notepad";
+            this.Text = "Select Test Program";
             this.ResumeLayout(false);
             this.PerformLayout();
 
